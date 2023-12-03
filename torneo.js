@@ -1,2 +1,10 @@
-let participantes = ['0Alirio', '1Flaco', '2Chape', '3Data', '4Jose', '5Bamby', '6Dany', '7Beto', '8Kamkum', '9Gordo', '10Maicol', '11Yoneider', '12Fransua']
-console.log(Math.floor(Math.random() * participantes.length))
+let participantes = []
+console.log(Math.round(Math.random() * participantes.length))
+
+//'2Chape' vs '6Dany'
+// '3Data' vs '10Maicol'
+// '11Yoneider' vs '4Jose'
+//'8Kamkum' vs '9Gordo'
+//'0Alirio' vs '7Beto'
+// '5Bamby' vs '12Fransua'
+// '1Flaco' vs '13Fredo'

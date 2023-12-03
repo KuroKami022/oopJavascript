@@ -1,3 +1,38 @@
+function videoPlay(id) {
+  const urlSecreta = "https://platziultrasecretomasquelanasa.com/" + id;
+  console.log("Se está reproduciendo desde la url " + urlSecreta);
+}
+function videoStop(id) {
+  const urlSecreta = "https://platziultrasecretomasquelanasa.com/" + id;
+  console.log("Pausamos la url " + urlSecreta);
+}
+
+export class PlatziClass {
+  constructor({
+    name,
+    videoID,
+  }) {
+    this.name = name;
+    this.videoID = videoID;
+  }
+
+  reproducir() {
+    videoPlay(this.videoID);
+  }
+  pausar() {
+    videoStop(this.videoID);
+  }
+}
+
+
+
+
+
+
+
+
+
+
 class Course {
   constructor({
     name,
@@ -23,7 +58,6 @@ class Course {
 const cursoProgBasica = new Course({
   name: "Curso Gratis de Programación Básica",
 });
-
 
 const cursoDefinitivoHTML = new Course({
   name: "Curso Definitivo de HTML y CSS",
